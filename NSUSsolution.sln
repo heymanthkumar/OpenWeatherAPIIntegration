@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSUS", "NSUS\NSUS.csproj", "{31C4E58C-6586-491F-B901-BA92FC714D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherModels", "WeatherModels\WeatherModels.csproj", "{DE428038-8389-4FAB-B4F9-92C44D8F35A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiClient", "WeatherApiClient\WeatherApiClient.csproj", "{ED546E81-EA57-4B1B-852A-E8C4AC7D3846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C4E58C-6586-491F-B901-BA92FC714D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C4E58C-6586-491F-B901-BA92FC714D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C4E58C-6586-491F-B901-BA92FC714D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C4E58C-6586-491F-B901-BA92FC714D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE428038-8389-4FAB-B4F9-92C44D8F35A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE428038-8389-4FAB-B4F9-92C44D8F35A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE428038-8389-4FAB-B4F9-92C44D8F35A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE428038-8389-4FAB-B4F9-92C44D8F35A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED546E81-EA57-4B1B-852A-E8C4AC7D3846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED546E81-EA57-4B1B-852A-E8C4AC7D3846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED546E81-EA57-4B1B-852A-E8C4AC7D3846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED546E81-EA57-4B1B-852A-E8C4AC7D3846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {229F17BC-40C9-4912-B8E9-B5C26B83149C}
+	EndGlobalSection
+EndGlobal

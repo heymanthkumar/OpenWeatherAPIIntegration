@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+@using (Html.BeginForm("Weather","Home"))
+{
+<input id="txtCity" type="text" placeholder="Enter City Name" name="txtCity"/>
+<input id="btnSearch" type="submit" value="Search" />
+}
+
